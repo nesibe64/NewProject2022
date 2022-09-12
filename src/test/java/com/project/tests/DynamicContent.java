@@ -158,7 +158,6 @@ public class DynamicContent {
         Assert.assertNotEquals(Text,TextAfterRefresh);
 
         Driver.closeDriver();
-
     }
 
 
