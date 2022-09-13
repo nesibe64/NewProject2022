@@ -1,14 +1,13 @@
 package com.project.tests;
 
-import com.project.pages.checkBoxesPage;
+import com.project.pages.CheckBoxesPage;
 import com.project.utility.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 
 public class Checkboxes {
 
- checkBoxesPage checkboxes =new checkBoxesPage();
+ CheckBoxesPage checkboxes =new CheckBoxesPage();
 
   @Test
     public void checkBoxesCheck() throws InterruptedException {

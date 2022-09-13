@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class checkBoxesPage {
+public class CheckBoxesPage {
 
-  public checkBoxesPage(){ PageFactory.initElements(Driver.getDriver(),this);}
+  public CheckBoxesPage(){ PageFactory.initElements(Driver.getDriver(),this);}
 
     @FindBy(xpath = "(//form[@id='checkboxes']/input)[1]")
     public WebElement checkBox1;
