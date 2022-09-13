@@ -1,6 +1,6 @@
 package com.project.tests;
 
-import com.project.pages.loginPage;
+import com.project.pages.LoginPage;
 import com.project.utility.Driver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class Login {
 
-    loginPage loginPage =new loginPage();
+    LoginPage loginPage =new LoginPage();
 
     @Test
  public void loginSuccess (){

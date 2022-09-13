@@ -10,9 +10,9 @@ import org.openqa.selenium.support.PageFactory;
 import static com.project.utility.Driver.getDriver;
 
 
-public class loginPage {
+public class LoginPage {
 
-    public loginPage(){
+    public LoginPage(){
        PageFactory.initElements(getDriver(),this);}
 
     @FindBy(id="username")
